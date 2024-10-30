@@ -1,0 +1,191 @@
+
+@media (max-width: 1000px) {
+  #nav .logo img {
+    width: 100px;
+    height: 28px;
+  }
+  #nav ul li a {
+    font-size: 13px;
+  }
+  #nav #nav_btn button {
+    height: 35px;
+    width: 100px;
+  }
+  #hero h1 {
+    font-size: 40px;
+  }
+  #hero button {
+    width: 150px;
+    height: 44px;
+  }
+  #two h1 {
+    width: 65%;
+    font-size: 34px;
+  }
+  #three h1 {
+    font-size: 25px;
+  }
+  #three .top p {
+    font-size: var(--txt1);
+  }
+  #three .bottom .left_txt p {
+    font-size: 13px;
+  }
+  #four .box .txt .card h5,
+  #four .box .txt .card p {
+    padding: 5px 20px;
+    font-size: 13px;
+  }
+}
+
+
+@media (max-width:920px){
+    #nav .right{
+        position: fixed;
+        height: 100vh;
+        padding: 10px 0;
+        align-items: center;
+        justify-content: space-between;
+        transition: .4s all ease;
+        right: -100%;
+        width: 220px;
+        background-color: antiquewhite;
+        flex-direction: column;
+        top: 0;
+    }
+    #nav .right ul{
+        flex-direction: column;
+    }
+    #nav .right ul li{
+        padding: 10px 0;
+    }
+    #nav .right #nav_btn{
+        gap: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    #nav .ham{
+        display: block;
+        font-size: 25px;
+        color: #000;
+    }
+    #nav .close{
+        display: flex;
+        width: 100%;
+        padding: 20px;
+        text-align: left;
+        font-size: 26px;
+        color: #000;
+    }
+    #nav .slide{
+        right: 0 !important;
+    }
+    #hero{
+        margin-top: 10px;
+    }
+    #two .grid .card h4{
+        font-size: 15px;
+    }
+#two .grid .card p {
+    font-size: 13px;
+}
+#three .bottom .img_right img {
+    height: 350px;
+    width: 350px;
+}
+#four {
+    padding: 50px;
+
+}
+#four .box .txt{
+    gap: 20px;
+}
+}
+@media (max-width:687px){
+    #nav{
+        height: 70px;
+    }
+    #hero{
+        margin-top: 0;
+        height: calc(100vh - 70px);
+    }
+    #three .bottom .img_right{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    #three .bottom{
+        flex-direction: column-reverse;
+    }
+    #three .bottom .img_right img {
+        width: 100%;
+    }
+#four .box .txt {
+    grid-template-columns: 1fr ;
+}
+
+#login{
+    padding: 50px 20px;
+}
+#login form {
+padding: 10px;
+}
+#login .top p {
+    width: 100%;
+    font-size: 13px;
+  }
+#login form h1{
+    font-size: 20px;
+}
+#footer{
+  padding: 30px 20px 10px 20px;
+
+}
+#footer footer .top {
+flex-direction: column;
+}
+
+#footer footer .top  .logo{
+    padding-bottom: 10px;
+    filter: invert(100%);
+}
+#footer .top .quick_links {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+#footer .bottom .follows_links .social_links a {
+    height: 25px;
+    width: 25px;
+}
+#footer .bottom{
+    flex-direction: column-reverse;
+    font-size: 12px;
+    gap: 10px;
+}
+#two h1{
+    width: 100%;
+}
+#two .grid{
+    grid-template-columns: 1fr;
+}
+}
+
+@media (max-width:350px){
+    #four {
+        padding: 50px 20px;
+      }
+      #two{
+        padding: 50px 20px;
+      }
+      #two .grid .card p {
+        width: 100%;
+      }
+      #three{
+        padding: 50px 20px;
+      }
+      #three .bottom .left_txt p {
+        width: 100%;
+      }
+
+}
